@@ -40,6 +40,8 @@ public class BrowserNavigation extends BaseTest{
 
         Assert.assertFalse(cookieBanner.isDisplayed(), "Coocie banner is displayed");
 
+        System.out.println("Hello World");
+
         Thread.sleep(6000);
 
     }
