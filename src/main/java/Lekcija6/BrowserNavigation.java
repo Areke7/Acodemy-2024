@@ -51,6 +51,8 @@ public class BrowserNavigation extends BaseTest{
         WebElement cookieBanner = driver.findElement(By.id("cookiebanner"));
         Assert.assertEquals(cookieBanner.getAttribute("lang"),"lv");
 
+        System.out.println("izmaiņas priekš atzarošanas");
+
         //li[contains(@class,'language-switcher')]/a[text()='LV']
 
     }
